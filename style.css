@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Press Start 2P", cursive;
+}
+.guess {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  top: 22%;
+  width: 100vw;
+  text-align: center;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+.bw {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  top: 1%;
+  right: 1%;
+}
+.cent {
+  height: 45px;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 45vh;
+  transform: translateY(-50%);
+}
+.q {
+  position: absolute;
+  background-color: white;
+  font-size: 60px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  width: 100px;
+  text-align: center;
+}
+.left {
+  position: absolute;
+  top: 58vh;
+  left: 14%;
+}
+.num {
+  height: 110px;
+  width: 250px;
+  display: block;
+  margin: 1rem;
+  font-size: 50px;
+  text-align: center;
+}
+.btn {
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  left: 25%;
+  margin: 1px;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.right {
+  color: white;
+  position: absolute;
+  font-size: 32px;
+  right: 4%;
+  top: 60%;
+}
+.lh {
+  margin-bottom: 30px;
+}
+.score {
+  margin-bottom: 40px;
+}
+.again {
+  font-size: 30px;
+  padding: 1rem;
+  font-family: "Press Start 2P", cursive;
+  position: absolute;
+  left: 1%;
+  top: 2%;
+  cursor: pointer;
+}
